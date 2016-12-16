@@ -1,0 +1,21 @@
+<HTML>
+  <BODY>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/photobox/1.9.9/photobox/jquery.photobox.min.js"></script>
+    <script type="text/javascript" src="js/instevent.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <div class="controls">
+      <span>This is an example of a <a href="https://github.com/yairEO/photobox">Photobox</a> gallery drawn from multiple Instagram tags</span>
+      <BR>
+      <!-- <input id="accesstoken" style="width:100%" type="text" placeholder="API access_token for Instagram"/> -->
+        <!-- <button onClick="fetchFromCache()">Fetch photos from Instagram cache of random tags</button> -->
+      <button onClick="addRandomPhotos()">Add 10 random photos</button>
+      <button onClick="addRandomPhoto()">Add 1 random photo</button>
+        <BR>
+        <!-- <button onClick="startTimer()">Add random photos every 2 s</button>
+        <button onClick="clearInterval(timer)">Stop timed addition</button> -->
+    </div><BR>
+    <div id="gallery">
+    </div>
+  </BODY>
+</HTML>  
